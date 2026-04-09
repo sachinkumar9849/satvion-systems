@@ -1,70 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satvion Systems — Digital Innovation & Technology Solutions</title>
-    <meta name="description"
-        content="Satvion Systems delivers cutting-edge digital marketing, product development, and technology solutions that drive innovation forward.">
-
-    <!-- Favicon -->
-    <link rel="icon" href="assets/images/fav.webp" type="image/png">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- Bootstrap 4.6 CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <!-- Slick Slider CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-    <!-- ===== HEADER ===== -->
-    <header class="site-header" id="siteHeader">
-        <div class="header-inner">
-            <!-- Logo -->
-            <a href="index.html" class="header-logo" id="headerLogo">
-                <img src="assets/images/logo.png" alt="Satvion Systems">
-            </a>
-
-            <!-- Navigation -->
-            <nav class="header-nav" id="headerNav">
-                <a href="#heroSection" class="active">Home</a>
-                <a href="#servicesSection">Service</a>
-                <a href="#aboutSection">About</a>
-                <a href="#packageSection">Package</a>
-                <a href="#contactSection">Contact</a>
-            </nav>
-
-            <!-- Actions -->
-            <div class="header-actions">
-                <a href="#" class="btn-cta desktop-only" id="ctaButton">
-                    Let's Talk
-                    <span class="cta-icon">
-                        <i class="fas fa-arrow-right"></i>
-                    </span>
-                </a>
-                <div class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </div>
-    </header>
+<?php include ("include/header.php")?>
 
     <!-- ===== HERO / BANNER SECTION ===== -->
     <section class="hero-section" id="heroSection">
@@ -98,8 +32,7 @@
             <div class="hero-title-line-2">
                 <span class="hero-oval-wrapper">
                     <span class="hero-oval">
-                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=200&h=100&fit=crop"
-                            alt="Tech">
+                        
                     </span>
                 </span>
                 <span class="text-accent">SYSTEMS</span>
@@ -118,15 +51,8 @@
 
             <!-- CTA Buttons -->
             <div class="hero-cta-wrapper">
-                <a href="#" class="btn-hero" id="heroCtaBtn">
-                    Discover More
-                    <span class="btn-hero-icon">
-                        <i class="fas fa-arrow-right"></i>
-                    </span>
-                </a>
                 <a href="#" class="btn-outline" id="heroWatchBtn">
-                    <i class="fas fa-play"></i>
-                    Watch Showreel
+                    Discover More
                 </a>
             </div>
         </div>
@@ -137,7 +63,7 @@
             <span>Scroll</span>
         </a>
     </section>
-
+    
 
 
     <!-- ===== ABOUT SECTION ===== -->
@@ -166,15 +92,12 @@
                     We believe in innovation, collaboration, and data-driven design to help clients stand out
                     in a digital world.
                 </p>
+                <p class="about-desc">
+                    We believe in innovation, collaboration, and data-driven design to help clients stand out
+                    in a digital world.
+                </p>
 
-                <!-- Stats -->
-                <div class="about-stats">
-                    <div class="about-stat-number">10M+</div>
-                    <div class="about-stat-text">
-                        <span>Raised more</span>
-                        <span>than</span>
-                    </div>
-                </div>
+                
 
                 <!-- Divider -->
                 <div class="about-divider"></div>
@@ -186,7 +109,6 @@
                         <img src="https://i.pravatar.cc/80?img=32" alt="Team member">
                         <img src="https://i.pravatar.cc/80?img=47" alt="Team member">
                         <img src="https://i.pravatar.cc/80?img=12" alt="Team member">
-                        <span class="avatar-more">+</span>
                     </div>
                 </div>
             </div>
@@ -275,11 +197,6 @@
                     </h2>
                     <div class="services-heading-row">
                         <span class="services-heading-text">Services</span>
-                        <!-- Inline Thumbnails -->
-                        <div class="services-heading-thumbs">
-                            <img src="assets/images/services/services01.jpg" alt="Service">
-                            <img src="assets/images/services/services02.jpg" alt="Service">
-                        </div>
                         <span class="services-heading-italic">For You</span>
                     </div>
                 </div>
@@ -600,10 +517,10 @@
         <div class="client-container">
             <div class="client-logos-wrapper">
                 <div class="client-logo-item" data-animate="fade-up">
-                    <img src="https://www.vectorlogo.zone/logos/rakuten/rakuten-ar21.svg" alt="Rakuten">
+                    <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/logo3.png" alt="Rakuten">
                 </div>
                 <div class="client-logo-item" data-animate="fade-up" style="transition-delay: 0.1s;">
-                    <img src="https://www.vectorlogo.zone/logos/consumerreports/consumerreports-icon.svg"
+                    <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/logo4.png"
                         alt="Consumer Reports">
                 </div>
                 <div class="client-logo-item" data-animate="fade-up" style="transition-delay: 0.2s;">
@@ -730,109 +647,4 @@
         </div>
     </section>
 
-
-    <!-- ===== FOOTER SECTION ===== -->
-    <footer class="site-footer">
-        <!-- Abstract Background Pattern Overlay -->
-        <div class="footer-bg-pattern" style="background-image: url('https://dev261.kodesolution.com/degency/wp-content/uploads/2026/02/Bg-Object-1.png');"></div>
-        
-        <div class="footer-container">
-            <!-- Footer Top: Logo and Socials -->
-            <div class="footer-top">
-                <a href="index.html" class="footer-logo">
-                    <img src="assets/images/logo.png" alt="Satvion Systems">
-                </a>
-                <div class="footer-socials">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-vk"></i></a>
-                </div>
-            </div>
-
-            <div class="footer-divider-top"></div>
-
-            <!-- Footer Main: 4 Columns -->
-            <div class="footer-main">
-                <div class="row">
-                    <!-- Column 1: Contact -->
-                    <div class="col-lg-3 col-md-6 footer-col">
-                        <div class="footer-contact-item">
-                            <span class="footer-label">Contact us at</span>
-                            <a href="tel:+12345678900" class="footer-value">(+123) 456 789 00</a>
-                        </div>
-                        <div class="footer-contact-item" style="margin-top: 30px;">
-                            <span class="footer-label">Office Address</span>
-                            <span class="footer-value">4517 Washington Ave. <br> New York USA</span>
-                        </div>
-                    </div>
-
-                    <!-- Column 2: Quick Link -->
-                    <div class="col-lg-2 col-md-6 footer-col">
-                        <h4 class="footer-title">Quick Link</h4>
-                        <ul class="footer-links">
-                            <li><a href="#aboutSection">About</a></li>
-                            <li><a href="#">Our Mission</a></li>
-                            <li><a href="#">Help Center</a></li>
-                            <li><a href="#blogSection">Our Blogs</a></li>
-                            <li><a href="#contactSection">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Column 3: Our Solutions -->
-                    <div class="col-lg-3 col-md-6 footer-col">
-                        <h4 class="footer-title">Our Solutions</h4>
-                        <ul class="footer-links">
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">Digital Marketing</a></li>
-                            <li><a href="#">Brand Identity Design</a></li>
-                            <li><a href="#">UX/UI Design</a></li>
-                            <li><a href="#">Mobile Application</a></li>
-                            <li><a href="#">Cyber Security</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Column 4: Our Newsletter -->
-                    <div class="col-lg-4 col-md-6 footer-col">
-                        <h4 class="footer-title">Our Newsletter</h4>
-                        <p class="footer-newsletter-desc">
-                            Subscribe our newsletter to get our latest update & news.
-                        </p>
-                        <form class="footer-newsletter-form">
-                            <div class="newsletter-input-group">
-                                <input type="email" placeholder="Email Address" required>
-                                <button type="submit" class="btn-newsletter">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <line x1="22" y1="2" x2="11" y2="13"></line>
-                                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                                    </svg>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Footer Bottom: Copyright -->
-            <div class="footer-bottom">
-                <div class="footer-divider-bottom"></div>
-                <div class="footer-copyright">
-                    <p>© Copyright Reserved by <a href="index.html">satvion systems</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
-
-    <!-- Slick Slider JS -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-    <!-- Custom JS -->
-    <script src="js/main.js"></script>
-</body>
-
-</html>
+<?php include ("include/footer.php")?>
