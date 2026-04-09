@@ -162,4 +162,22 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    // ===== TESTIMONIAL SLIDER (SLICK) =====
+    const testimonialSlider = $('#testimonialSlider');
+    if (testimonialSlider.length) {
+        testimonialSlider.slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            fade: true,
+            cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+            dots: true,
+            arrows: false,
+            pauseOnHover: false,
+            adaptiveHeight: true
+        });
+    }
+
 });
