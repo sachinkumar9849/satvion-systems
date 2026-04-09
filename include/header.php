@@ -58,8 +58,8 @@
         <!-- Navigation -->
         <nav class="header-nav" id="headerNav">
           <a href="index.php" class="active">Home</a>
-          <a href="">Service</a>
-          <a href="">About</a>
+          <a href="services.php">Service</a>
+          <a href="about.php">About</a>
           <a href="pricing.php">Package</a>
           <a href="team.php">Our Team</a>
 
