@@ -1,7 +1,7 @@
 <?php include ("include/header.php")?>
 
     <!-- PAGE HERO -->
-    <section class="page-hero" style="background-image: url('https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/project2.jpg'); background-size: cover; background-position: center;">
+    <section class="page-hero" style="background-image: url('assets/images/project2.jpg'); background-size: cover; background-position: center;">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8" data-animate="fade-up">
@@ -24,7 +24,7 @@
         <div class="container">
             <div class="about-intro-grid">
                 <div class="about-intro-image" data-animate="fade-right">
-                    <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/02/about2.jpg" alt="Our Workspace">
+                    <img src="assets/images/about2.jpg" alt="Our Workspace">
                 </div>
                 <div class="about-intro-text" data-animate="fade-left">
                     <div class="contact-label">

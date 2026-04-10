@@ -58,12 +58,9 @@
             <div class="col-lg-3 col-md-6 footer-col">
               <h4 class="footer-title">Our Solutions</h4>
               <ul class="footer-links">
-                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Social Media Handling</a></li>
                 <li><a href="#">Digital Marketing</a></li>
                 <li><a href="#">Brand Identity Design</a></li>
-                <li><a href="#">UX/UI Design</a></li>
-                <li><a href="#">Mobile Application</a></li>
-                <li><a href="#">Cyber Security</a></li>
               </ul>
             </div>
 

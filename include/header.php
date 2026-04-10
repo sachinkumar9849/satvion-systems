@@ -58,8 +58,8 @@
         <!-- Navigation -->
         <nav class="header-nav" id="headerNav">
           <a href="index.php" class="active">Home</a>
-          <a href="services.php">Service</a>
           <a href="about.php">About</a>
+          <a href="services.php">Service</a>
           <a href="pricing.php">Package</a>
           <a href="team.php">Our Team</a>
 
@@ -68,7 +68,7 @@
 
         <!-- Actions -->
         <div class="header-actions">
-          <a href="#" class="btn-cta desktop-only" id="ctaButton">
+          <a href="contact.php" class="btn-cta desktop-only" id="ctaButton">
             Let's Talk
             <span class="cta-icon">
               <i class="fas fa-arrow-right"></i>

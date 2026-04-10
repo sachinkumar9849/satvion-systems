@@ -5,7 +5,7 @@
         <!-- Background Video -->
         <div class="hero-video-wrapper">
             <video autoplay muted loop playsinline id="heroVideo">
-                <source src="https://savoircommunications.co/wp-content/uploads/2025/01/01231-1.mp4" type="video/mp4">
+                <source src="assets/images/hero-video.mp4" type="video/mp4">
             </video>
         </div>
 
@@ -51,7 +51,7 @@
 
             <!-- CTA Buttons -->
             <div class="hero-cta-wrapper">
-                <a href="#" class="btn-outline" id="heroWatchBtn">
+                <a href="services.php" class="btn-outline" id="heroWatchBtn">
                     Discover More
                 </a>
             </div>
@@ -158,7 +158,7 @@
                 </div>
 
                 <!-- CTA Button -->
-                <a href="#" class="btn-about-cta" id="aboutCtaBtn">
+                <a href="about.php" class="btn-about-cta" id="aboutCtaBtn">
                     More About Us
                     <span class="btn-about-icon">
                         <i class="fas fa-arrow-right"></i>
@@ -173,7 +173,7 @@
     <section class="services-section" id="servicesSection">
         <div class="services-outer">
             <div class="services-inner" style="
-    background-image: url(https://dev261.kodesolution.com/degency/wp-content/uploads/2026/02/Bg-Object-1.png);
+    background-image: url(assets/images/Bg-Object-1.png);
     background-repeat: no-repeat;
     background-position: bottom left;
 ">
@@ -211,11 +211,11 @@
                                 <div class="services-card-icon">
                                     <i class="fas fa-bullhorn"></i>
                                 </div>
-                                <a href="#" class="services-card-arrow">
+                                <a href="service-details.php" class="services-card-arrow">
                                     <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
-                            <h4 class="services-card-title">Digital Marketing</h4>
+                            <h4 class="services-card-title">Social media handling</h4>
                             <p class="services-card-desc">Strategic marketing campaigns that boost visibility,
                                 engagement, and conversions across all digital channels.</p>
                         </div>
@@ -227,7 +227,7 @@
                                 <div class="services-card-icon">
                                     <i class="fas fa-gem"></i>
                                 </div>
-                                <a href="#" class="services-card-arrow">
+                                <a href="service-details.php" class="services-card-arrow">
                                     <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -243,7 +243,7 @@
                                 <div class="services-card-icon">
                                     <i class="fas fa-code"></i>
                                 </div>
-                                <a href="#" class="services-card-arrow">
+                                <a href="service-details.php" class="services-card-arrow">
                                     <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -259,7 +259,7 @@
                                 <div class="services-card-icon">
                                     <i class="fas fa-chart-line"></i>
                                 </div>
-                                <a href="#" class="services-card-arrow">
+                                <a href="service-details.php" class="services-card-arrow">
                                     <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -458,7 +458,7 @@
 
 
                         <div class="contact-image-box">
-                            <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/02/contact1.jpg"
+                            <img src="assets/images/contact.jpg"
                                 alt="Support Team" class="contact-main-img">
                             <div class="contact-arrow">
                                 <svg width="80" height="80" viewBox="0 0 100 100" fill="none"
@@ -517,20 +517,20 @@
         <div class="client-container">
             <div class="client-logos-wrapper">
                 <div class="client-logo-item" data-animate="fade-up">
-                    <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/logo3.png" alt="Rakuten">
+                    <img src="assets/images/logo3.png" alt="Rakuten">
                 </div>
                 <div class="client-logo-item" data-animate="fade-up" style="transition-delay: 0.1s;">
-                    <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/logo4.png"
+                    <img src="assets/images/logo4.png"
                         alt="Consumer Reports">
                 </div>
                 <div class="client-logo-item" data-animate="fade-up" style="transition-delay: 0.2s;">
-                    <img src="https://www.vectorlogo.zone/logos/quora/quora-ar21.svg" alt="Quora">
+                    <img src="assets/images/quora-ar21.svg" alt="Quora">
                 </div>
                 <div class="client-logo-item" data-animate="fade-up" style="transition-delay: 0.3s;">
-                    <img src="https://www.vectorlogo.zone/logos/hubspot/hubspot-ar21.svg" alt="HubSpot">
+                    <img src="assets/images/hubspot-ar21.svg" alt="HubSpot">
                 </div>
                 <div class="client-logo-item" data-animate="fade-up" style="transition-delay: 0.4s;">
-                    <img src="https://www.vectorlogo.zone/logos/roku/roku-ar21.svg" alt="Roku">
+                    <img src="assets/images/roku-ar21.svg" alt="Roku">
                 </div>
             </div>
         </div>
@@ -566,7 +566,7 @@
                 <!-- Blog Card 1 -->
                 <article class="blog-card" data-animate="fade-up">
                     <div class="blog-card-image">
-                        <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/02/blog3.jpg"
+                        <img src="assets/images/blog3.jpg"
                             alt="Brand Online Presence">
                         <div class="blog-card-date-badge">25</div>
                     </div>
@@ -593,7 +593,7 @@
                 <!-- Blog Card 2 -->
                 <article class="blog-card" data-animate="fade-up" style="transition-delay: 0.1s;">
                     <div class="blog-card-image">
-                        <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/02/blog1.jpg"
+                        <img src="assets/images/blog1.jpg"
                             alt="SEO Best Practices">
                         <div class="blog-card-date-badge">25</div>
                     </div>
@@ -620,7 +620,7 @@
                 <!-- Blog Card 3 -->
                 <article class="blog-card" data-animate="fade-up" style="transition-delay: 0.2s;">
                     <div class="blog-card-image">
-                        <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/02/blog2-1.jpg"
+                        <img src="assets/images/blog2-1.jpg"
                             alt="Hashtag Strategies">
                         <div class="blog-card-date-badge">25</div>
                     </div>
