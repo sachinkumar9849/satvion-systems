@@ -4,13 +4,15 @@
     <section
       class="page-hero"
       style="
-        background-image: url(https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/project2.jpg);
+        background-image: url(assets/images/project2.jpg);
       "
     >
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-lg-7">
-            <h1>Pricing</h1>
+            <h1>Package Plan</h1>
+            <p> Flexible plans designed to scale with your needs. No hidden fees,
+              cancel anytime.</p>
             <ul class="breadcrumb-custom justify-content-center mt-3">
               <li><a href="#">Home</a></li>
               <li class="active">Pricing</li>

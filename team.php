@@ -4,7 +4,7 @@
     <section
       class="page-hero"
       style="
-        background-image: url(https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/project2.jpg);
+        background-image: url(assets/images/project2.jpg);
       "
     >
       <div class="container">
@@ -27,7 +27,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-wrapper">
                         <div class="team-img">
-                            <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/team-1.jpg" alt="">
+                            <img src="assets/images/team-1.jpg" alt="">
                         </div>
 
                         <div class="team-detail">
@@ -39,7 +39,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-wrapper">
                         <div class="team-img">
-                            <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/team-2.jpg" alt="">
+                            <img src="assets/images/team-2.jpg" alt="">
                         </div>
 
                         <div class="team-detail">
@@ -51,7 +51,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="team-wrapper">
                         <div class="team-img">
-                            <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/team-1.jpg" alt="">
+                            <img src="assets/images/team-1.jpg" alt="">
                         </div>
 
                         <div class="team-detail">

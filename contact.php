@@ -2,7 +2,7 @@
 
 <!-- PAGE HERO -->
 <section class="page-hero" style="
-        background-image: url(https://dev261.kodesolution.com/degency/wp-content/uploads/2026/03/project2.jpg);
+        background-image: url(assets/images/project2.jpg);
       ">
     <div class="container">
         <div class="row justify-content-center text-center">
@@ -42,7 +42,7 @@
 
 
                     <div class="contact-image-box">
-                        <img src="https://dev261.kodesolution.com/degency/wp-content/uploads/2026/02/contact1.jpg"
+                        <img src="assets/images/contact.jpg"
                             alt="Support Team" class="contact-main-img">
                         <div class="contact-arrow">
                             <svg width="80" height="80" viewBox="0 0 100 100" fill="none"

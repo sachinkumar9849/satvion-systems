@@ -64,7 +64,7 @@ a {
 }
 
 .section-padding{
-    padding: 60px 0;
+    padding: 60px 0 !important;
 }
 @media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
